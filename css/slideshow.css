@@ -1,0 +1,21 @@
+/* Slideshow for welcome page */
+.cb-slideshow{
+    position: absolute;
+    margin-left: 10%;
+    float: right;
+    width: 30%;
+    margin-right: 1%;
+    height: 375px;  
+}
+#slideshow > div { 
+    border: solid 5px black;
+    box-shadow: 0 0 5px black;
+    position: absolute; 
+    right: 20px; 
+    height: 375px; 
+}
+#slideshow img {
+    height: 375px; 
+    width: 260px;
+}
+ 

@@ -1,0 +1,361 @@
+/* NEW EPIC FONT FOR THE LOLZ */
+
+@font-face {
+    font-family: d2Font;
+    src: url(../font/DIABLO_H.ttf);
+}
+/*GLOBAL*/
+
+h1 {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    overflow: hidden;
+    height: 5% !important;
+    border-radius: 5px;
+}
+
+h2 {
+    margin-bottom: 0px;
+}
+
+body {
+    margin: 0;
+    font-family: d2Font;
+    background-color: white;
+    background-image: url(http://us.media.blizzard.com/d3/media/wallpapers/wallpaper020/wallpaper020-1920x1080.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#wrapper {
+    margin: 8px;
+}
+/* top menu */
+
+.menu {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    overflow: hidden;
+    border-radius: 5px;
+    list-style-type: none;
+    width: 100%;
+    font-size: 16px;
+    display: inline-block;
+    color: white;
+    margin-bottom: 0px;
+    -webkit-padding-start: 0px !important;
+}
+
+.menu>li {
+    display: block;
+    width: 20%;
+    float: left;
+    border-radius: 5px;
+    height: 35px;
+}
+
+.menu>li>a {
+    color: black;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 0px;
+    padding-bottom: 15px;
+}
+/* top menu selected page button */
+
+.current {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.menu>li:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+/*
+#left input {
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+#left select {
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+*/
+/* Right section of Movie page */
+
+#right {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    width: 98%;
+    margin-left: 1%;
+}
+
+#right > ul > li {
+    background: url(../images/diablopanel1.png) no-repeat;
+    height: 80px;
+    width: 400px;
+    padding-top: 35px;
+    padding-left: 30px;
+    display: inline-block;
+    margin-left: 2%;
+}
+
+#right ul li table {
+    width: 100%;
+}
+
+#right ul li table th {
+    text-decoration: underline;
+}
+
+#right ul li table th:nth-child(2) {
+    float: right;
+    padding-right: 100px;
+}
+
+#right ul li table td:nth-child(2) {
+    float: right;
+    padding-right: 140px;
+}
+
+#right ul li table img {
+    border-radius: 25px;
+}
+
+#right ul li table button {
+    background: none;
+    border: 0;
+    font-family: d2Font;
+}
+
+#right ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+/* tips page section */
+
+#tipsSection {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    width: 98%;
+    margin-left: 1%;
+}
+
+#tipsSection > ul > li {
+    background: url(../images/diablopanel1.png) no-repeat;
+    height: 80px;
+    width: 400px;
+    padding-top: 35px;
+    padding-left: 15px;
+    margin-left: 2%;
+    display: inline-block;
+}
+
+#tipsSection ul li table {
+    width: 100%;
+}
+
+#tipsSection ul li table th {
+    text-decoration: underline;
+}
+
+#tipsSection ul li table th:nth-child(3) {
+    padding-right: 10px;
+    float: right;
+}
+
+#tipsSection ul li table td:nth-child(2) {
+    text-align: center;
+}
+
+#tipsSection ul li table td:nth-child(3) {
+    padding-right: 20px;
+    float: right;
+}
+
+#tipsSection ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+/* save button */
+
+#save {
+    display: block;
+    background-image: url(../images/btn-diablo.png);
+    width: 200px;
+    height: 42px;
+    text-align: center;
+    border-radius: 5px;
+    border: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    color: goldenrod;
+    font-weight: bold;
+}
+/* Left side of the movie page */
+
+#left {
+    float: left;
+    width: 220px;
+    background-color: rgba(255, 255, 255, 0.2);
+    overflow: hidden;
+    height: 100%;
+    border-radius: 5px;
+}
+
+#left fieldset {
+    width: 90%;
+}
+
+#left input {
+    border-radius: 5px;
+}
+
+#left fieldset:nth-of-type(2)>input {
+    background-image: url(../images/btn-diablo.png);
+    width: 200px;
+    height: 42px;
+    color: goldenrod;
+    font-weight: bold;
+    border: 0px;
+}
+
+#left fieldset:nth-of-type(2)>input:active {
+    padding: 4px 2px 2px 4px;
+    text-decoration: none;
+}
+
+#left select {
+    display: block;
+}
+
+#save:active {
+    padding: 4px 2px 2px 4px;
+    text-decoration: none;
+}
+
+#left fieldset:nth-of-type(2)>input {
+    display: block;
+}
+
+@media (max-width: 690px) {
+    #right {
+        float: left;
+    }
+}
+/* nigel page */
+
+#wrapper2>iframe {
+    width: 100%;
+    height: 450px;
+}
+/* about and index (welcome) page */
+
+#wrapper3 {
+    background-color: rgba(255, 255, 255, 0.2);
+    overflow: hidden;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+}
+/* front page */
+
+#wrapper_front {
+    background-color: rgba(255, 255, 255, 0.2);
+    overflow: hidden;
+    border-radius: 5px;
+    width: 95%;
+    margin-left: 4%;
+}
+
+#wrapper_front #frontleft {
+    float: left;
+    width: 40%;
+    margin-left: 1%;
+}
+#wrapperguest{
+    display: inline-block;
+    width: 98%;
+}
+#guestform{
+    margin-left: 2%;
+    float: left;
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 100%;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+}
+#guestform input:nth-of-type(1){
+    margin-bottom: 20px;
+}
+#guestfeed{
+    float: right;
+    width: 40%;
+    display: block;
+ 
+}#guestfeed ul{
+   list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+#guestfeed li{
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-bottom: 1%;
+}
+#guestfeed h2{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/*slideshow firstpage */
+#slideshow {
+    float: right;
+    width: 55%;
+}
+
+/* holder for echo after GET */
+
+#container {
+    background-color: rgba(255, 255, 255, 0.2);
+    overflow: hidden;
+    border-radius: 5px;
+    width: 98%;
+    padding: 1%;
+}
+
+#container p {
+    float: left;
+    width: 70%
+}
+
+#container img {
+    margin-top: 0;
+    float: right;
+    width: 20%
+}
+
+#container h1 {
+    width: 100%
+}
+/* footer */
+
+footer {
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    left: 8px;
+    clear: both;
+    display: inline-block;
+    width: 98%;
+    position: fixed;
+    bottom: 8px;
+}
